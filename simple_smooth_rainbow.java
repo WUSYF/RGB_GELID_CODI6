@@ -43,4 +43,5 @@ void rainbow(){
 
   hue_changer++;
   FastLED.show();
+  delay(0); //increase to slow down animation
 }
